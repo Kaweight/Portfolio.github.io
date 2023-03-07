@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelancer - Kamil Mazelanik portfolio</title>
+    <link rel="shortcut icon" href="/src//img/icons/km-logo.svg" type="svg" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&family=Montserrat:wght@200;400;800&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="/dist/css/main.min.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+  <button class="hamburger" id="hamburger-6" type="button">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </button>
+
+  <div class="header__company-box">
+    <img
+      class="header__company-logo"
+      src="/dist/img/icons/km-logo.svg"
+      alt="company-logo"
+    />
+  </div>
+
+  <a href="#about">
+    <div class="sign-scroll__arrow">
+      <img
+        class="sign-scroll__arrow-icon"
+        src="/src/img/icons/triangle.svg"
+        alt="scroll-to-about-section"
+      />
+    </div>
+  </a>
+
+  <nav class="nav nav-mobile">
+    <ol class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="#about"> About </a></li>
+      <li class="nav__item">
+        <a class="nav__link" href="#experience"> Experience </a>
+      </li>
+      <li class="nav__item"><a class="nav__link" href="#works"> Works </a></li>
+      <li class="nav__item">
+        <a class="nav__link" href="#contact"> contact </a>
+      </li>
+    </ol>
+  </nav>
+  <nav class="nav nav-desktop">
+    <ol class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="#about"> About </a></li>
+      <li class="nav__item">
+        <a class="nav__link" href="#experience"> Experience </a>
+      </li>
+      <li class="nav__item"><a class="nav__link" href="#works"> Works </a></li>
+      <li class="nav__item">
+        <a class="nav__link" href="#contact"> contact </a>
+      </li>
+    </ol>
+  </nav>
+  <div class="header__text">
+    <p class="header__introduction">Hi. my name is</p>
+    <h1 class="header__name">Kamil Mazelanik.</h1>
+    <h2 class="header__sub-name">I'm frontend developer.</h2>
+  </div>
+  <div class="header__img">
+    <div class="header__shadow"></div>
+  </div>
+</header>
+    <main class="main">
+  <section class="about" id="about">
+    <div class="wrapper">
+      <div class="about__box">
+        <h2 class="about__section-heading section-heading">About me</h2>
+        <div class="about__text">
+          <p class="about__text-desc">
+            I am a front-end developer specialized in building React apps, based
+            in Rybnik, Poland. Fascinated with dynamically rendered applications
+            and global state management, I have confidence in writing modern
+            front-end apps that meet today's development standards.
+          </p>
+          <p class="about__text-desc">
+            Knowledge of tools and passion for learning allow me to pick up new
+            technologies with ease and to find pleasure in mastering them. This,
+            along with my inborn attention to detail, makes me celebrate the
+            works on the project until the finishing touches are put, and
+            appreciate the value of honest feedback.
+          </p>
+          <p class="about__text-desc">
+            <b>Technologies:</b> React.js, Redux, React Router, HTML5, CSS3,
+            JavaScript ES5 & ES6, Sass, Webpack, Gulp, Git and more.
+          </p>
+          <div class="about__link-box">
+            <a
+              class="about__link"
+              href="/src/img/CV-ANG-Kamil-Mazelanik.pdf"
+              target="_blank"
+              >Download CV</a
+            >
+            <a class="about__link" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="about__card">
+          <div class="about__card-wrapper">
+            <img
+              class="about__card-img"
+              src="/src/img/kamil-portfolio.JPG"
+              alt="Kamil Mazelanik"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="experience" id="experience">
+    <div class="wrapper">
+      <div class="experience__box">
+        <h2 class="experience__section-heading section-heading">Experience</h2>
+        <div class="experience__buttons">
+          <button class="experience__button" id="currently">Currently</button>
+          <button class="experience__button" id="previously">Previously</button>
+        </div>
+        <div class="experience__information">
+          <div class="experience__currently experience__currently-active">
+            <h2 class="experience__job-header">
+              Frontend Developer <span>Ework Group</span>
+            </h2>
+            <h3 class="experience__sub-header">August 2021 – present</h3>
+            <p class="experience__text">
+              I currently work at <span>Ework Group</span> where I write code on
+              the frontend using the <span>React.js</span> library. Along with
+              other teams, we manage a Storybook where we keep common components
+              for our projects. In addition to writing new business solutions,
+              we are also rewriting the application using
+              <span>React Query</span> to retrieve and update data and
+              <span>Zod</span> for schema validation in TypeScript. We work in a
+              scrum team including frontend dev, backend dev, testers, scrum
+              master and project manager.
+            </p>
+          </div>
+          <div class="experience__previously experience__previously-active">
+            <h2 class="experience__job-header">
+              Constructor/ Designer working in <span>CAD programs</span>
+            </h2>
+            <h3 class="experience__sub-header">2013 - 2021</h3>
+            <p class="experience__text">
+              Before I decided to become a frontend developer I was working on
+              3D models. I worked in <span>CAD</span> programs such as
+              <span>Catia V5</span> and <span>Inventor.</span>
+              It was mainly in the automotive sector where I designed components
+              for cars and tools for manufacturing components. I was in constant
+              contact with project managers and production workers. Together we
+              caught up on projects from paper to final product. If everything
+              passed the tests successfully then the project went into series
+              production.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="works" id="works">
+    <div class="wrapper">
+      <div class="works__box">
+        <h2 class="works__section-heading section-heading">Works</h2>
+        <div class="works__cards-box">
+          <div class="works__cards-border">
+            <div class="works__card">
+              <div class="works__img works__img--one"></div>
+              <div class="works__text">
+                <h3 class="works__text__header">Kitesurfing</h3>
+                <p class="works__text__desc">
+                  Discover the most wonderful activities on the water.
+                </p>
+                <a
+                  class="works__text__btn"
+                  href="https://kaweight.github.io/Kitesurfing.github.io/"
+                  target="_blank"
+                >
+                  Go to website
+                </a>
+              </div>
+            </div>
+            <div class="works__card">
+              <div class="works__img works__img--two"></div>
+              <div class="works__text">
+                <h3 class="works__text__header">Investment</h3>
+                <p class="works__text__desc">
+                  Are you wondering what to invest your money in? We will help
+                  you.
+                </p>
+                <a
+                  class="works__text__btn"
+                  href="https://kaweight.github.io/Investment.github.io/"
+                  target="_blank"
+                  >Go to website</a
+                >
+              </div>
+            </div>
+            <div class="works__card">
+              <div class="works__img works__img--three"></div>
+              <div class="works__text">
+                <h3 class="works__text__header">SPA</h3>
+                <p class="works__text__desc">
+                  At nast you will feel like heaven. We offer relaxation
+                  massages as well as specialty massages.
+                </p>
+                <a class="works__text__btn">Go to website</a>
+              </div>
+            </div>
+            <div class="works__card">
+              <div class="works__img works__img--four"></div>
+              <div class="works__text">
+                <h3 class="works__text__header">Developer</h3>
+                <p class="works__text__desc">
+                  Are you looking for a home for you and your family? Be sure to
+                  visit our website. We will find the best place.
+                </p>
+                <a class="works__text__btn">Go to website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="wrapper">
+      <h2 class="contact__section-heading section-heading">Contact</h2>
+      <form class="contact__form">
+        <div class="contact__form-box">
+          <label for="name">Your name:</label>
+          <input type="text" id="name" autocomplete="off" />
+        </div>
+        <div class="contact__form-box">
+          <label for="mail">Your email:</label>
+          <input type="email" id="mail" />
+        </div>
+        <div class="contact__form-box">
+          <label for="msg">Message:</label>
+          <textarea id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="contact__form-btn">Send</button>
+      </form>
+    </div>
+  </section>
+  <a href="#header">
+    <div class="scroll-to-up">
+      <img
+        class="scroll-to-up-active__img"
+        src="/src/img/icons/triangle.svg"
+        alt="button-scroll-to-up"
+      />
+    </div>
+  </a>
+</main>
+    <footer class="footer">
+  <div class="footer__icons">
+    <a href="https://github.com/Kaweight" aria-label="GitHub" target="_blank"
+      ><img src="/src/img/icons/github.svg"
+    /></a>
+    <a
+      href="http://www.linkedin.com/in/kamil-mazelanik"
+      aria-label="Linkedin"
+      target="_blank"
+      ><img src="/src/img/icons/linkedin.svg"
+    /></a>
+  </div>
+  <p class="footer__bottom-text">
+    &copy; <span class="footer__year"></span> Designed & Built by Kamil Mazelnik
+  </p>
+</footer>
+    <script src="/dist/js/main.min.js"></script>
+  </body>
+</html>

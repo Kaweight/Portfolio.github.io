@@ -1,0 +1,74 @@
+@media (min-width: 768px) {
+  .about {
+    overflow: hidden;
+
+    &__box {
+      grid-template-columns: 1fr;
+    }
+
+    &__card {
+      padding-top: 1em;
+    }
+
+    &__card-img {
+      width: 50%;
+    }
+
+    &__text-header {
+      font-size: 3rem;
+    }
+
+    &__text {
+      font-size: 2rem;
+    }
+
+    &__section-heading {
+      grid-column: 1 / -1;
+    }
+
+    &__card-wrapper {
+      margin-left: 2em;
+    }
+  }
+
+  .experience {
+    &__box {
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: repeat(1, 1fr);
+    }
+
+    &__header {
+      grid-column-start: 1;
+      font-size: 3rem;
+    }
+
+    &__buttons {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      width: 200px;
+    }
+
+    &__information {
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      padding: 0 2.5em;
+    }
+
+    &__text {
+      font-size: 2rem;
+      line-height: 1.6;
+    }
+
+    &__section-heading {
+      grid-column: 1 / 4;
+    }
+  }
+
+  .works {
+    &__header {
+      font-size: 3rem;
+    }
+  }
+}

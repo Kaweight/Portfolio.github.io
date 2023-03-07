@@ -1,0 +1,38 @@
+@media (min-width: 576px) {
+  .header {
+    &__introduction {
+      font-size: 2.5rem;
+    }
+    &__name {
+      font-size: 5.5rem;
+    }
+    &__sub-name {
+      font-size: 2.5rem;
+    }
+  }
+
+  .section-heading {
+    &::after {
+      width: 85%;
+    }
+  }
+
+  .about {
+    &__link-box {
+      flex-direction: row;
+      margin-top: 1.5em;
+      gap: 2em;
+    }
+  }
+
+  .works {
+    &__card {
+      margin: 0.25em 0.25em;
+    }
+
+    &__cards-border {
+      grid-template-columns: 1fr 1fr;
+      padding: 0.25em 0.25em 0 0.25em;
+    }
+  }
+}
